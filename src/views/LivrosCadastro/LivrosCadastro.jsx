@@ -6,7 +6,7 @@ import { LivrosService } from '../../api/LivrosService'
 
 const LivrosCadastro = () => {
   
-  const [livro, setLivro] = useState([])
+  const [livro, setLivro] = useState({})
 
   async function createLivro(){
     const body = {
